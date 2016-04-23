@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navOptHome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/navOptHome" />
+        <item
+            android:id="@+id/navOptGodList"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/navOptGodList" />
+        <!--<item
+            android:id="@+id/navOptStatistics"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="@string/navOptStatistics" />-->
+        <item
+            android:id="@+id/navOptSuggestAGod"
+            android:icon="@drawable/ic_rate_review_black_24dp"
+            android:title="@string/navOptSuggestGod" />
+    </group>
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Random God</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="mainBtnPickRandom">Pick Random</string>
+    <string name="mainBtnGodOfTheDay">God of the Day</string>
+    <string name="mainBtnRandomFavorite">Random Favorite</string>
+    <string name="navOptHome">Home</string>
+    <string name="navOptGodList">God List</string>
+    <string name="navOptStatistics">Statistics</string>
+    <string name="navOptSuggestGod">Suggest a God</string>
+    <string name="title_activity_god_detail">GodDetailActivity</string>
+</resources>
