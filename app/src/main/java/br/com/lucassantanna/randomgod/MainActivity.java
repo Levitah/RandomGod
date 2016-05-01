@@ -85,9 +85,14 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.navOptHome) {
             // Handle the camera action
-            MainActivity activity = new MainActivity();
-            Intent intent = new Intent();
-            activity.startActivity(intent);
+            Intent intent = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(intent);
+        }
+
+        else if (id == R.id.navOptGodList) {
+            // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, GodListActivity.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

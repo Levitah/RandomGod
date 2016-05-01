@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="br.com.lucassantanna.randomgod.GodDetailActivity">
+    tools:context="br.com.lucassantanna.randomgod.GodListActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,26 +21,14 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
-        android:fillViewport="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-
-    <include layout="@layout/content_god_detail" />
-
-    </ScrollView>
+    <include layout="@layout/content_god_list" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/btnTop"
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:src="@drawable/ic_arrow_upward_white_24dp"
-        app:backgroundTint="@color/colorPrimary"/>
+        android:src="@android:drawable/ic_dialog_email" />
 
 </android.support.design.widget.CoordinatorLayout>

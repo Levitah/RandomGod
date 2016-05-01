@@ -13,4 +13,5 @@
     <string name="navOptStatistics">Statistics</string>
     <string name="navOptSuggestGod">Suggest a God</string>
     <string name="title_activity_god_detail">GodDetailActivity</string>
+    <string name="title_activity_god_list">GodListActivity</string>
 </resources>

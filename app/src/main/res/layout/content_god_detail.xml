@@ -14,11 +14,11 @@
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="460dp"
         android:id="@+id/imvGodPicture"
         android:src="@mipmap/flying_spaghetti_monster"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -82,4 +82,27 @@
         android:layout_below="@+id/txvReligionName"
         android:layout_toRightOf="@+id/txvGodNameTitle"
         android:layout_toEndOf="@+id/txvGodNameTitle" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Summary:"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txvSummaryTitle"
+        android:layout_below="@+id/txvOriginTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="The Flying Spaghetti Monster (FSM) is the deity of the Church of the Flying Spaghetti Monster or Pastafarianism (a portmanteau of pasta and Rastafarian), a social movement that promotes a light-hearted view of religion and opposes the teaching of intelligent design and creationism in public schools. Pastafarianism is legally recognized as a religion in Poland, in The Netherlands, and in New Zealand – where Pastafarian representatives have been authorized to celebrate weddings and where the first legally recognized Pastafarian wedding was performed in April 2016. In the same month in the United States, a Federal Judge ruled that the 'Church of the Flying Spaghetti Monster' is not a real religion"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txvSummary"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txvOriginTitle"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>

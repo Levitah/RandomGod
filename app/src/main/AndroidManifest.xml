@@ -21,6 +21,10 @@
         <activity
             android:name=".GodDetailActivity"
             android:label="@string/title_activity_god_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GodListActivity"
+            android:label="@string/title_activity_god_list"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
